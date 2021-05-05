@@ -155,7 +155,7 @@ var accents_latex_html = [
     "\`e", "&egrave;"     ,
     "{\^e}", "&eacirc;"   ,
     "\^e", "&eacirc;"     ,
-    "\"o", "&ouml;"       ,
+    '\\"o', "&ouml;"       ,
     '\\"u', "&uuml;"
 ];
 
