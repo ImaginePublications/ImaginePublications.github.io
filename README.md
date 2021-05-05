@@ -15,7 +15,7 @@ You can use the GitHub website, but if you want to use your favorite tools, get 
   year = ,
   pdf = {},
   img = {},
-  project = {}
+  project = {},
   note = {},
   presentation = {},
   tldr = {}
@@ -29,7 +29,7 @@ and
   booktitle = ,
   year = ,
   img = {},
-  project = {}
+  project = {},
   note = {},
   presentation = {},
   tldr = {}
