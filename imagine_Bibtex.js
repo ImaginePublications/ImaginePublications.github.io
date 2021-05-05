@@ -144,17 +144,17 @@ var expanded_venues = [
 
 // stupid French people^D^D accents:
 var accents_latex_html = [
-    "\`a", "&agrave;"     ,
-    "\^a", "&acirc;"      ,
-    "{\c c}", "&ccedil;" ,
-    "{\c{c}}", "&ccedil;" ,
-    "{\'E}", "&Eacute;"   ,
-    "{\'e}", "&eacute;"   ,
-    "\'e", "&eacute;"     ,
-    "{\`e}", "&egrave;"   ,
-    "\`e", "&egrave;"     ,
-    "{\^e}", "&eacirc;"   ,
-    "\^e", "&eacirc;"     ,
+    "\\`a", "&agrave;"     ,
+    "\\^a", "&acirc;"      ,
+    "{\\c c}", "&ccedil;" ,
+    "{\\c{c}}", "&ccedil;" ,
+    "{\\'E}", "&Eacute;"   ,
+    "{\\'e}", "&eacute;"   ,
+    "\\'e", "&eacute;"     ,
+    "{\\`e}", "&egrave;"   ,
+    "\\`e", "&egrave;"     ,
+    "{\\^e}", "&eacirc;"   ,
+    "\\^e", "&eacirc;"     ,
     '\\"o', "&ouml;"       ,
     '\\"u', "&uuml;"
 ];
