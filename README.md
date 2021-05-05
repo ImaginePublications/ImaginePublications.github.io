@@ -5,7 +5,7 @@ If you want to add your publications :
 `git clone `
 
 2. Edit file `imagine_publications.bib`. The syntax is the same as a standard bibfile with some additional fields.  You can use one of the following templates:
-`
+```
 @article{,
   title = {{}},
   author = {},
@@ -18,9 +18,9 @@ If you want to add your publications :
   presentation = {},
   tldr = {}
 }
-`
+```
 and
-`
+```
 @inproceedings{,
   title = {{}},
   author = {},
@@ -32,7 +32,7 @@ and
   presentation = {}
   tldr = {}
 }
-`
+```
 
 Fill at least the `title`, `author`, `journal`/`booktitle`, `year` fields. For `journal` and `booktitle`, please use the standard acronym (PAMI, CVPR, etc.) *without* { } nor " ". If your journal / conference is not known yet, you can add it at the beginning of the `image_Bibtex.js` file.
 
