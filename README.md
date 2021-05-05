@@ -42,7 +42,7 @@ Fill in the key (you can use anything) and at least the `title`, `author`, `jour
 For the other fields:
 - `img`:  2 possibilities -> a) You give a url to an image. b) You can add your image to the repository in the `images/papers` directory (remember to do `git add` your file) and put the filename for the value of field `img`. Please use relatively small images (max 400x400 pixels). The script makes the difference between a) and b) by looking for `http` and `https` in the value.
 - `project`: Provide a link to a project page related to your paper.
-- `note`: Whatever brief you want to mention (e.g. "To appear", "The two first authors have equal contributions").
+- `note`: Anything brief you want to mention (e.g. "To appear", "The two first authors have equal contributions").
 - `presentation`: e.g. "Oral", "Spotlight".
 - `tldr`: Too Long Didnt Read.  1 sentence that describes your paper.
 
