@@ -4,10 +4,10 @@
 
 ////////////////////////////////////////////////////////////////////////////////
 
-var BIB_FILE = "https://ImaginePublications.github.io/imagine_publications.bib";
+var BIB_FILE           = "https://ImaginePublications.github.io/imagine_publications.bib";
 
 var default_images_dir = "https://ImaginePublications.github.io/images/papers/";
-var default_image = "https://ImaginePublications.github.io/images/papers/default_image.png";
+var default_image      = "https://ImaginePublications.github.io/images/papers/default_image.png";
 
 var authors_url = [
     "Mathieu Aubry", "http://imagine.enpc.fr/~aubrym/",
@@ -29,6 +29,32 @@ var authors_url = [
     "G&uuml;l Varol", "https://www.robots.ox.ac.uk/~gul/",
     "Chaohui Wang", "https://imagine-lab.enpc.fr/staff-members/chaoi-wang/",
     "Yang Xiao", "https://youngxiao13.github.io/"
+];
+
+var expanded_venues = [
+    "3DV",   "International Conference on 3D Vision", "3DV",
+    "ThreeDV",   "International Conference on 3D Vision", "3DV",
+    "ACCV",  "Proceedings of the Asian Conference on Computer Vision", "ACCV",
+    "arXiv", "arXiv Preprints", "",
+    "ARXIV", "arXiv Preprints", "",
+    "BMVC",  "Proceedings of the British  Machine Vision Conference", "BMVC",
+    "CVIU",  "Computer Vision and Image Understanding", "CVIU",
+    "CVPR",  "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition", "CVPR",
+    "ECCVW",  "Workshop at the European Conference on Computer Vision", "ECCV",
+    "ECCV",  "Proceedings of the European Conference on Computer Vision", "ECCV",
+    "ICASSP", "Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing", "ICASSP",
+    "ICCV Workshop", "do not expand", "",
+    "ICCV",  "Proceedings of the International Conference on Computer Vision", "ICCV",
+    "ICCVW", "Workshop at the International Conference on Computer Vision", "ICCV Workshop",
+    "ICIP",  "International Conference on Image Processing", "ICIP",
+    "ICLR",  "International Conference on Learning Representations", "ICLR",
+    "IJCV",  "International Journal of Computer Vision", "IJCV",
+    "ISMAR", "Proceedings of the International Symposium on Mixed and Augmented Reality", "ISMAR",
+    "MICCAI", "Proceedings of the Conference on  Medical Image Computing and Computer Assisted Intervention", "MICCAI",
+    "NIPS",  "Advances in Neural Information Processing Systems", "NIPS",
+    "PAMI",  "IEEE Transactions on Pattern Analysis and Machine Intelligence", "PAMI",
+    "VR",    "Proceedings of the IEEE Virtual Reality Conference", "VR",
+    "WACV",  "IEEE Winter Conference on Applications of Computer Vision", "WACV"
 ];
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -116,31 +142,6 @@ var ref = document.querySelector('script');
 ref.parentNode.insertBefore(style, ref);
 
 ////////////////////////////////////////////////////////////////////////////////
-
-var expanded_venues = [
-    "3DV",   "International Conference on 3D Vision", "3DV",
-    "ThreeDV",   "International Conference on 3D Vision", "3DV",
-    "ACCV",  "Proceedings of the Asian Conference on Computer Vision", "ACCV",
-    "arXiv", "arXiv Preprints", "",
-    "ARXIV", "arXiv Preprints", "",
-    "BMVC",  "Proceedings of the British  Machine Vision Conference", "BMVC",
-    "CVIU",  "Computer Vision and Image Understanding", "CVIU",
-    "CVPR",  "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition", "CVPR",
-    "ECCVW",  "Workshop at the European Conference on Computer Vision", "ECCV",
-    "ECCV",  "Proceedings of the European Conference on Computer Vision", "ECCV",
-    "ICCV Workshop", "do not expand", "",
-    "ICCV",  "Proceedings of the International Conference on Computer Vision", "ICCV",
-    "ICCVW", "Workshop at the International Conference on Computer Vision", "ICCV Workshop",
-    "ICIP",  "International Conference on Image Processing", "ICIP",
-    "ICLR",  "International Conference on Learning Representations", "ICLR",
-    "IJCV",  "International Journal of Computer Vision", "IJCV",
-    "ISMAR", "Proceedings of the International Symposium on Mixed and Augmented Reality", "ISMAR",
-    "MICCAI", "Proceedings of the Conference on  Medical Image Computing and Computer Assisted Intervention", "MICCAI",
-    "NIPS",  "Advances in Neural Information Processing Systems", "NIPS",
-    "PAMI",  "IEEE Transactions on Pattern Analysis and Machine Intelligence", "PAMI",
-    "VR",    "Proceedings of the IEEE Virtual Reality Conference", "VR",
-    "WACV",  "IEEE Winter Conference on Applications of Computer Vision", "WACV"
-];
 
 // stupid French people^D^D accents:
 var accents_latex_html = [
