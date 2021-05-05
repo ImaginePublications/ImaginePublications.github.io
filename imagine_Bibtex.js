@@ -156,7 +156,7 @@ var accents_latex_html = [
     "{\^e}", "&eacirc;"   ,
     "\^e", "&eacirc;"     ,
     "\"o", "&ouml;"       ,
-    "\"u", "&uuml;"
+    '\\"u', "&uuml;"
 ];
 
 var do_not_capitalize_these_words = [
