@@ -111,10 +111,9 @@ div.publications .bibtex_error {
     font-size: 50%;
 }
 `;
+
 var ref = document.querySelector('script');
 ref.parentNode.insertBefore(style, ref);
-
-
 
 ////////////////////////////////////////////////////////////////////////////////
 
@@ -143,7 +142,7 @@ var expanded_venues = [
     "WACV",  "IEEE Winter Conference on Applications of Computer Vision", "WACV"
 ];
 
-// stupid French people:
+// stupid French people^D^D accents:
 var accents_latex_html = [
     "\`a", "&agrave;"     ,
     "\^a", "&acirc;"      ,
