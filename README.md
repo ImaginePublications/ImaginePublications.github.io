@@ -6,9 +6,9 @@ You can use the GitHub website, but if you want to use your favorite tools, get 
 
 `git clone `
 
-2. Edit file `imagine_publications.bib`. The syntax is the same as for a standard bibfile with some additional fields.  You can use one of the following templates:
+2. Edit `imagine_publications.bib`. The syntax is the same as for a standard bibfile with some additional fields.  You can use one of the following templates:
 ```
-@article{,
+@article{ <key> ,
   title = {{}},
   author = {},
   journal = ,
@@ -23,7 +23,7 @@ You can use the GitHub website, but if you want to use your favorite tools, get 
 ```
 and
 ```
-@inproceedings{,
+@inproceedings{ <key> ,
   title = {{}},
   author = {},
   booktitle = ,
@@ -31,12 +31,12 @@ and
   img = {},
   project = {}
   note = {},
-  presentation = {}
+  presentation = {},
   tldr = {}
 }
 ```
 
-Fill in at least the `title`, `author`, `journal`/`booktitle`, `year` fields. 
+Fill in the key (you can use anything) and at least the `title`, `author`, `journal`/`booktitle`, `year` fields. 
 **For `journal` and `booktitle`, please use the standard acronym (PAMI, CVPR, etc.)** *without* { } nor " ". If your journal / conference is not known yet, you can add it at the beginning of the `image_Bibtex.js` file.
 
 For the other fields:
