@@ -119,6 +119,7 @@ ref.parentNode.insertBefore(style, ref);
 
 var expanded_venues = [
     "3DV",   "International Conference on 3D Vision", "3DV",
+    "ThreeDV",   "International Conference on 3D Vision", "3DV",
     "ACCV",  "Proceedings of the Asian Conference on Computer Vision", "ACCV",
     "arXiv", "arXiv Preprints", "",
     "ARXIV", "arXiv Preprints", "",
