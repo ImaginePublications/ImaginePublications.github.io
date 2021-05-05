@@ -4,7 +4,7 @@ If you want to add your publications :
 
 You can use the GitHub website, but if you want to use your favorite tools, get the repository:
 
-`git clone `
+`git clone https://github.com/ImaginePublications/ImaginePublications.github.io.git`
 
 2. Edit `imagine_publications.bib`. The syntax is the same as for a standard bibfile with some additional fields.  You can use one of the following templates:
 ```
