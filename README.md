@@ -37,7 +37,7 @@ and
 ```
 
 Fill in the key (you can use anything) and at least the `title`, `author`, `journal`/`booktitle`, `year` fields. 
-**For `journal` and `booktitle`, please use the standard acronym (PAMI, CVPR, etc.)** *without* { } nor " ". If your journal / conference is not known yet, you can add it at the beginning of the `image_Bibtex.js` file.
+**For `journal` and `booktitle`, please use the standard acronym (PAMI, CVPR, etc.)** *without* { } nor " ". If your journal / conference is not known yet, you can add it to the `image_Bibtex.js` file (check the `expanded_venues` array).
 
 For the other fields:
 - `img`:  2 possibilities -> a) You give a url to an image. b) You can add your image to the repository in the `images/papers` directory (remember to do `git add` your file) and put the filename for the value of field `img`. Please use relatively small images (max 400x400 pixels). The script makes the difference between a) and b) by looking for `http` and `https` in the value.
