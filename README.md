@@ -6,7 +6,7 @@ You can use the GitHub website, but if you want to use your favorite tools, get 
 
 `git clone `
 
-2. Edit file `imagine_publications.bib`. The syntax is the same as a standard bibfile with some additional fields.  You can use one of the following templates:
+2. Edit file `imagine_publications.bib`. The syntax is the same as for a standard bibfile with some additional fields.  You can use one of the following templates:
 ```
 @article{,
   title = {{}},
