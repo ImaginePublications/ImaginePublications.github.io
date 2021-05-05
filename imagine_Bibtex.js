@@ -486,12 +486,13 @@ function bibtex2html_bibfile(bibfile_name, list_of_publications_id)
 
 ////////////////////////////////////////////////////////////////////////////////
 
-jQuery.get('https://ImaginePublications.github.io/imagine_Bibtex.js', function(data) {
+jQuery.get('https://ImaginePublications.github.io/imagine_publications.bib', function(publications) {
     alert(data);
 });
 
 bibtex_entries = new BibTex();
-bibtex_entries.content = list_of_publications; // defined in list_of_publications.js
+bibtex_entries.content = publications;
+// bibtex_entries.content = list_of_publications; // defined in list_of_publications.js
 bibtex_entries.parse();
 document.getElementById("list_of_publications_here").innerHTML = bibtex2html_BibTex(bibtex_entries);
 
