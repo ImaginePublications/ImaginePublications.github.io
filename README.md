@@ -1,4 +1,4 @@
-If you want to add your publications :
+If you want to add your publications to https://imagine-lab.enpc.fr/publications/:
 
 1. If you are not a contributor yet, ask me (vincent.lepetit@enpc.fr) to add you. 
 
