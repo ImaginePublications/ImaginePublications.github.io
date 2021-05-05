@@ -10,7 +10,7 @@ var default_image = "https://www.labri.fr/perso/vlepetit/imagine_paper_images/de
 
 var authors_url = [
     "Mathieu Aubry", "http://imagine.enpc.fr/~aubrym/",
-    "Fran&ccedil;ois Darmon", "https://imagine-lab.enpc.fr/staff-members/francois-darmon/",
+    "Fran&ccedil;ois Darmon", "http://imagine.enpc.fr/~darmonf",
     "Yuming Du", "https://imagine-lab.enpc.fr/staff-members/yuming-du/",
     "Hugo Germain", "https://www.hugogermain.com/",
     "Thibault Groueix", "http://imagine.enpc.fr/~groueixt/",
@@ -25,6 +25,7 @@ var authors_url = [
     "Michael Ramamonjisoa", "https://michaelramamonjisoa.github.io/",
     "Othman Sbai", "http://imagine.enpc.fr/~sbaio/pix2vec/",
     "Xi Shen", "https://xishen0220.github.io/",
+    "G&uuml;l Varol", "https://www.robots.ox.ac.uk/~gul/",
     "Chaohui Wang", "https://imagine-lab.enpc.fr/staff-members/chaoi-wang/",
     "Yang Xiao", "https://youngxiao13.github.io/"
 ];
