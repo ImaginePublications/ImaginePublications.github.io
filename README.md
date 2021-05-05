@@ -6,7 +6,7 @@ You can use the GitHub website, but if you want to use your favorite tools, get 
 
 `git clone https://github.com/ImaginePublications/ImaginePublications.github.io.git`
 
-2. Edit `imagine_publications.bib`. The syntax is the same as for a standard bibfile with some additional fields.  You can use one of the following templates:
+2. Edit `imagine_publications.bib` to add your publications. The syntax is the same as for a standard bibfile with some additional fields.  You can use one of the following templates:
 ```
 @article{ <key> ,
   title = {{}},
