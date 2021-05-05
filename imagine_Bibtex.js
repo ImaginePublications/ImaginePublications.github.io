@@ -1,12 +1,13 @@
 // Needs :
 // <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-// <script src="BibTex.js"></script>
-// <script src="list_of_publications.js"></script>
+// <script src=" .. /BibTex.js"></script>
 
 ////////////////////////////////////////////////////////////////////////////////
 
-var default_images_dir = "https://www.labri.fr/perso/vlepetit/imagine_paper_images/";
-var default_image = "https://www.labri.fr/perso/vlepetit/imagine_paper_images/default_image.png";
+var BIB_FILE = "https://ImaginePublications.github.io/imagine_publications.bib";
+
+var default_images_dir = "https://ImaginePublications.github.io/images/papers/";
+var default_image = "https://ImaginePublications.github.io/images/papers/default_image.png";
 
 var authors_url = [
     "Mathieu Aubry", "http://imagine.enpc.fr/~aubrym/",
@@ -486,18 +487,9 @@ function bibtex2html_bibfile(bibfile_name, list_of_publications_id)
 
 ////////////////////////////////////////////////////////////////////////////////
 
-jQuery.get('https://ImaginePublications.github.io/imagine_publications.bib', function(publications) {
+jQuery.get(BIB_FILE, function(publications) {
     bibtex_entries = new BibTex();
     bibtex_entries.content = publications;
     bibtex_entries.parse();
     document.getElementById("list_of_publications_here").innerHTML = bibtex2html_BibTex(bibtex_entries);
 });
-
-// bibtex_entries = new BibTex();
-// bibtex_entries.content = publications;
-// bibtex_entries.content = list_of_publications; // defined in list_of_publications.js
-// bibtex_entries.parse();
-// document.getElementById("list_of_publications_here").innerHTML = bibtex2html_BibTex(bibtex_entries);
-
-
-	// ret += "<h2>\n" + current_year.toString() + "</h2>\n";
