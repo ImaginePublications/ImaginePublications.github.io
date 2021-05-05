@@ -487,7 +487,6 @@ function bibtex2html_bibfile(bibfile_name, list_of_publications_id)
 ////////////////////////////////////////////////////////////////////////////////
 
 jQuery.get('https://ImaginePublications.github.io/imagine_publications.bib', function(publications) {
-    alert(data);
 });
 
 bibtex_entries = new BibTex();
