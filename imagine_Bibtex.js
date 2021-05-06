@@ -238,7 +238,7 @@ function capitalize(str)
 	result = result.replace(cap, not_cap);
     }
 
-    // one dirty trick:
+    // one dirty trick for a special case:
     result = result.replace(": a ", ": A ");
 
     return result;
@@ -488,9 +488,4 @@ function bibtex2html_bibfile(bibfile_name, list_of_publications_id)
 
 ////////////////////////////////////////////////////////////////////////////////
 
-jQuery.get(BIB_FILE, function(publications) {
-    bibtex_entries = new BibTex();
-    bibtex_entries.content = publications;
-    bibtex_entries.parse();
-    document.getElementById("list_of_publications_here").innerHTML = bibtex2html_BibTex(bibtex_entries);
-});
+bibtex2html_bibfile(BIB_FILE, "list_of_publications_here")
