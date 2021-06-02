@@ -2,7 +2,7 @@ If you want to add your publications to https://imagine-lab.enpc.fr/publications
 
 1. If you are not a contributor yet, ask me (vincent.lepetit@enpc.fr) to add you. 
 
-You can use the GitHub website, but if you want to use your favorite tools, get the repository:
+You can simply use the GitHub website, but if you want to use your favorite tools, get the repository:
 
 `git clone https://github.com/ImaginePublications/ImaginePublications.github.io.git`
 
