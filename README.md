@@ -48,7 +48,7 @@ About the other fields:
 - `presentation`: e.g. "Oral", "Spotlight".
 - `tldr`: Too Long Didnt Read.  1 sentence that describes your paper.
 
-3. Commit your changes.
+3. Commit your changes ("Commit directly to the main branch").
 
-4. On https://github.com/ImaginePublications/ImaginePublications.github.io/, create a new Release.  Wait a few sec and check if your publication appears on the Imagine website https://imagine-lab.enpc.fr/publications/
+4. Wait about a minute and check if your publication appears on the Imagine website https://imagine-lab.enpc.fr/publications/  (reload the page by pressing Shift when clicking the Reload arrow on Chrome and Safari...)
 
