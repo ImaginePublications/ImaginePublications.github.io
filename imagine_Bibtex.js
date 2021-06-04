@@ -23,7 +23,7 @@ var authors_url = [
     "Marie-Morgane Paumard", "https://perso-etis.ensea.fr/paumard/",
     "David Picard", "https://davidpicard.github.io/",
     "Xuchong Qiu", "https://imagine-lab.enpc.fr/staff-members/xuchong-qiu/",
-    "Michael Ramamonjisoa", "https://michaelramamonjisoa.github.io/",
+    "Micha\"el Ramamonjisoa", "https://michaelramamonjisoa.github.io/",
     "Othman Sbai", "http://imagine.enpc.fr/~sbaio/pix2vec/",
     "Xi Shen", "https://xishen0220.github.io/",
     "G&uuml;l Varol", "https://www.robots.ox.ac.uk/~gul/",
