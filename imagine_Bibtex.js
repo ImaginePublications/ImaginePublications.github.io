@@ -361,9 +361,9 @@ function entry2html(entry, arxiv_vanity = false)
 
     var arxiv_vanity_html = "";
     if (arxiv_vanity) {
-	    if (weblink.includes("arxiv")) {
+	    if (pdf.includes("arxiv")) {
 		const regex = /[0-9\.]+\.pdf/;
-                var index = weblink.match(regex);
+                var index = pdf.match(regex);
 		if (index != null) {
 			index = index[0];
  			index = index.substr(0, index.length - 4)
