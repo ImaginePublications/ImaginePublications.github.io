@@ -509,6 +509,8 @@ function bibtex2html_BibTex_on_mobile(bibtex_entries)
 
     var ret = "";
 	
+    return "MOBILE";
+	
     for (var current_year = max_year; current_year >= min_year; current_year--) {
 	ret += "<h2>\n" + current_year.toString() + "</h2>\n";
 
