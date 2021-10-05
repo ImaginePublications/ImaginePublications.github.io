@@ -380,44 +380,30 @@ function entry2html(entry, arxiv_vanity = false)
 	
     var sep = "<br>";
     // var sep = ". ";
+	
+    var end = "";
+    if (project_html != "" && arxiv_vanity_html != "") {
+	end = "<p>" + project_html + " - " + arxiv_vanity_html + "</p>";
+    } else if (project_html != "" && arxiv_vanity_html == "") {
+	end = "<p>" + project_html + "</p>";
+    } else  if (project_html == "" && arxiv_vanity_html != "") {
+	end = "<p>" + arxiv_vanity_html + "</p>";
+    }
 
     if (entry['entryType'] == 'inproceedings') {
-	ret = title_html + sep;
-	ret += authors_html + sep;
-	ret += venue_html + ", " + year_html + presentation_html + sep;
-	if (tldr_html != "") {
-	    ret += tldr_html + sep;
-	}
-	if (note_html != "") {
-	    ret += note_html + sep;
-	}
-	ret += project_html;
-	return ret;
+	return title_html + ". " + authors_html + ". " + venue_html + ", " + year_html + ". " + note_html + end;
     } else if (entry['entryType'] == 'article') {
-	ret = title_html + sep;
-	ret += authors_html + sep;
-	ret += venue_html + ", " + year_html + sep;
-	if (tldr_html != "") {
-	    ret += tldr_html + sep;
-	}
-	if (note != "") {
-	    ret += note_html + sep;
-	}
-	ret += project_html;
-	return ret;
+	return title_html + ". " + authors_html + ". " + venue_html + ", " + year_html + ". " + note_html + end;
     } else if (entry['entryType'] == 'inbook') {
 	var booktitle = extract(entry, 'title');
 	var booktitle_html = "Chapter in <span class=\"in\">" + booktitle + "</span>";
-	var ret = title_html + sep;
-	ret += authors_html + sep;
-	ret += booktitle_html;
+	var ret = title_html + ". " + authors_html + ". " + booktitle_html;
 	var publisher = extract(entry, 'publisher');
 	if (publisher != "") {
 	    var publisher_html = "<span class=\"publisher\">" + publisher + "</span>";
 	    ret += ". " + publisher_html;
 	}
-	ret += ", " + year_html + sep;
-	ret += note_html + project_html;
+	ret += ", " + year_html + ". " + note_html + end;
 	return ret;
     } else if (entry['entryType'] == 'techreport') {
 	var ret = title_html + ". " + authors_html + ". ";
@@ -430,10 +416,10 @@ function entry2html(entry, arxiv_vanity = false)
 	if (number != "") {
 	    ret += ", <span class=\"number\">" + number + "</span>";
 	}
-	ret += ", " + year_html + ". " + note_html + project_html;
+	ret += ", " + year_html + ". " + note_html + end;
 	return ret;
     } else if (entry['entryType'] == 'hdr') {
-	return title_html + ". " + authors_html + ". " + venue_html + ", " + year_html + ". " + note_html + project_html;
+	return title_html + ". " + authors_html + ". " + venue_html + ", " + year_html + ". " + note_html;
     } else if (entry['entryType'] == 'phdthesis') {
 	var ret = title_html + sep + authors_html + sep;
 	ret += "<span class=\"in\">PhD Thesis</span>";
