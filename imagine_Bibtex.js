@@ -264,7 +264,7 @@ function capitalize(str)
     return result;
 }
 
-function entry2html(entry)
+function entry2html(entry, arxiv_vanity = false)
 {
     var pdf = extract(entry, 'pdf');
 
@@ -358,6 +358,26 @@ function entry2html(entry)
     }
 
     ////////////////////////////////////////////////////////////////////////////////
+
+    var arxiv_vanity_html = "";
+    if (arxiv_vanity) {
+	    if (weblink.includes("arxiv")) {
+		const regex = /[0-9\.]+\.pdf/;
+                var index = weblink.match(regex);
+		if (index != null) {
+			index = index[0];
+ 			index = index.substr(0, index.length - 4)
+ 			arxiv_vanity_html = "<a href = \"https://www.arxiv-vanity.com/papers/" + index + "/\">View this paper on arXiv-Vanity</a>";
+		}
+	    } else {
+	        arxiv_vanity_html = ""
+	    }
+    } else {
+        arxiv_vanity_html = ""
+    }
+	
+    ////////////////////////////////////////////////////////////////////////////////
+	
     var sep = "<br>";
     // var sep = ". ";
 
@@ -509,8 +529,6 @@ function bibtex2html_BibTex_on_mobile(bibtex_entries)
 
     var ret = "";
 	
-    return "MOBILE";
-	
     for (var current_year = max_year; current_year >= min_year; current_year--) {
 	ret += "<h2>\n" + current_year.toString() + "</h2>\n";
 
@@ -519,10 +537,8 @@ function bibtex2html_BibTex_on_mobile(bibtex_entries)
 	    var year = Number(extract(entry, 'year'));
 	    if (year == current_year) {
 		var img = extract(entry, 'img');
-		var weblink = extract(entry, 'weblink');
-		if (weblink == "") {
-		  weblink = extract(entry, 'pdf');
-		}
+		pdf = extract(entry, 'pdf');
+		
 		entry_html = entry2html(entry, true);
 		var anchor_html = "<a id=\"" + entry['cite'] + "\"></a>";		
 		ret += anchor_html;
@@ -531,11 +547,11 @@ function bibtex2html_BibTex_on_mobile(bibtex_entries)
 		ret += "<tr>\n";
 		if (img != '') {
 		    ret += "<td>";
-		    if (weblink != '') {
-			ret += "<a href = \"" + weblink + "\">";
+		    if (pdf != '') {
+			ret += "<a href = \"" + pdf + "\">";
 		    }
 		    ret += "<img alt = \"<missing>\" width = 300 src = \"" + image_root + "/" + img + "\" class = \"thumbnail\" ></img>";
-		    if (weblink != '') {
+		    if (pdf != '') {
 			ret += "</a>";
 		    }
 		    ret += "</td></tr><tr><td>";
