@@ -531,12 +531,19 @@ function bibtex2html_BibTex_on_mobile(bibtex_entries)
 
 		ret += "<table id=\"publis_mobile\">\n";
 		ret += "<tr>\n";
+		    
 		if (img != '') {
 		    ret += "<td>";
 		    if (pdf != '') {
 			ret += "<a href = \"" + pdf + "\">";
 		    }
-		    ret += "<img alt = \"<missing>\" width = 300 src = \"" + image_root + "/" + img + "\" class = \"thumbnail\" ></img>";
+
+		    ret += "<img alt = \"<missing>\"";
+		    ret += " src = \"";
+		    if (img.substring(0,4) != "http") {
+			ret += default_images_dir;
+		    }
+		    ret += img + "\" class = \"thumbnail\" onerror=\"this.src = '" + default_image + "';\"></img>";
 		    if (pdf != '') {
 			ret += "</a>";
 		    }
