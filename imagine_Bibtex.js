@@ -137,6 +137,25 @@ div.publications p {
 div.publications .bibtex_error {
     font-size: 50%;
 }
+
+table#publis_mobile {
+    width: 100%;
+    border-left: 1px solid rgb(200, 200, 200);
+    border-top: 1px solid rgb(200, 200, 200);
+    border-right: 1px solid rgb(200, 200, 200);
+    border-bottom: 1px solid rgb(200, 200, 200);
+}
+
+table#publis_mobile td {
+    padding-bottom : 15px;
+    padding-top : 15px;
+    padding-left : 5px;
+    border: 0px solid white;   
+}
+
+table#publis_mobile tr {
+       border: 0px solid white;
+}
 `;
 
 var ref = document.querySelector('script');
