@@ -143,7 +143,7 @@ table#publis_mobile {
     border-left: 1px solid rgb(0, 00, 00);
     border-top: 1px solid rgb(200, 200, 200);
     border-right: 1px solid rgb(200, 200, 200);
-    border-bottom: 1px solid rgb(200, 200, 200);
+    border-bottom: 20px solid rgb(255, 0, 0);
 }
 
 table#publis_mobile td {
