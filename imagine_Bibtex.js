@@ -381,7 +381,7 @@ function entry2html(entry, arxiv_vanity = false)
 	
     var end = "";
     if (project_html != "" && arxiv_vanity_html != "") {
-	end = "<p>" + project_html + " - " + arxiv_vanity_html + "</p>";
+	end = "<p>" + project_html + "</p><p>" + arxiv_vanity_html + "</p>";
     } else if (project_html != "" && arxiv_vanity_html == "") {
 	end = "<p>" + project_html + "</p>";
     } else  if (project_html == "" && arxiv_vanity_html != "") {
@@ -554,7 +554,8 @@ function bibtex2html_BibTex_on_mobile(bibtex_entries)
 		    ret += "</td>";
 		}
 		ret += "</tr>\n";
-         	ret += "</table>\n";		    
+         	ret += "</table>\n";
+		ret += "<hr>";
 	    }
 	}
 
