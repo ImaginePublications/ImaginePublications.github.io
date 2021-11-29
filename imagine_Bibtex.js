@@ -225,8 +225,8 @@ function extract(entry, field)
 function change_latex_accents_to_html_accents(str)
 {
     for(var i = 0; i < accents_latex_html.length; i+=2) {
-	str = str.replaceAll(accents_latex_html[i], accents_latex_html[i+1]);
 	str = str.replaceAll("{" + accents_latex_html[i] + "}", accents_latex_html[i+1]);
+	str = str.replaceAll(accents_latex_html[i], accents_latex_html[i+1]);
     }
 
     return str;
