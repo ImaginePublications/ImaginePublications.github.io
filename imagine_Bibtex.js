@@ -348,6 +348,24 @@ function entry2html(entry, arxiv_vanity = false)
 
     ////////////////////////////////////////////////////////////////////////////////
 
+    var presentation = extract(entry, 'presentation');
+    var presentation_html = "";
+    if (presentation != "") {
+	presentation_html = "<span class=\"note\">" + presentation + "</span>";
+    }
+	
+    var note_pred_html = "";
+    if (note_html != "" && presentation_html == "") {
+	note_pred_html = note_html + ".";
+    } else if (note_html == "" && presentation_html != "") {
+	note_pred_html = presentation_html + ".";
+    }
+    } else if (note_html != "" && presentation_html != "") {
+	note_pred_html = note_html + ". " + presentation_html + ".";
+    }
+
+    ////////////////////////////////////////////////////////////////////////////////
+
     var project_html = "";
     var project = extract(entry, 'project');
     if (project != '') {
@@ -388,7 +406,7 @@ function entry2html(entry, arxiv_vanity = false)
     }
 
     if (entry['entryType'] == 'inproceedings') {
-	return title_html + ". " + authors_html + ". " + venue_html + ", " + year_html + ". " + note_html + end;
+	return title_html + ". " + authors_html + ". " + venue_html + ", " + year_html + ". " + note_pred_html + end;
     } else if (entry['entryType'] == 'article') {
 	return title_html + ". " + authors_html + ". " + venue_html + ", " + year_html + ". " + note_html + end;
     } else if (entry['entryType'] == 'inbook') {
