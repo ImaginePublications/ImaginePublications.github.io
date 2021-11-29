@@ -163,18 +163,18 @@ ref.parentNode.insertBefore(style, ref);
 
 // stupid French people^D^D accents:
 var accents_latex_html = [
-    "\\`a", "&agrave;"     ,
-    "\\^a", "&acirc;"      ,
+    "\\`a", "&agrave;"  ,
+    "\\^a", "&acirc;"   ,
     "\\c c", "&ccedil;" ,
-    "\\c{c}", "&ccedil;" ,
-    "\\'E", "&Eacute;"   ,
-    "\\'e", "&eacute;"   ,
-    "\\`e", "&egrave;"     ,
-    "\\^e", "&eacirc;"     ,
-    '\\"e', "&euml;"       ,
-    '\\"i', "&iuml;" 
-    '\\"o', "&ouml;"       ,
-    '\\"u', "&uuml;"       ,
+    "\\c{c}", "&ccedil;",
+    "\\'E", "&Eacute;"  ,
+    "\\'e", "&eacute;"  ,
+    "\\`e", "&egrave;"  ,
+    "\\^e", "&eacirc;"  ,
+    '\\"e', "&euml;"    ,
+    '\\"i', "&iuml;"    ,
+    '\\"o', "&ouml;"    ,
+    '\\"u', "&uuml;"    
 ];
 
 var do_not_capitalize_these_words = [
