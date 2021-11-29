@@ -165,18 +165,16 @@ ref.parentNode.insertBefore(style, ref);
 var accents_latex_html = [
     "\\`a", "&agrave;"     ,
     "\\^a", "&acirc;"      ,
-    "{\\c c}", "&ccedil;" ,
-    "{\\c{c}}", "&ccedil;" ,
-    "{\\'E}", "&Eacute;"   ,
-    "{\\'e}", "&eacute;"   ,
-    "\\'e", "&eacute;"     ,
-    "{\\`e}", "&egrave;"   ,
+    "\\c c", "&ccedil;" ,
+    "\\c{c}", "&ccedil;" ,
+    "\\'E", "&Eacute;"   ,
+    "\\'e", "&eacute;"   ,
     "\\`e", "&egrave;"     ,
-    "{\\^e}", "&eacirc;"   ,
     "\\^e", "&eacirc;"     ,
     '\\"e', "&euml;"       ,
+    '\\"i', "&iuml;" 
     '\\"o', "&ouml;"       ,
-    '\\"u', "&uuml;"
+    '\\"u', "&uuml;"       ,
 ];
 
 var do_not_capitalize_these_words = [
@@ -227,7 +225,8 @@ function extract(entry, field)
 function change_latex_accents_to_html_accents(str)
 {
     for(var i = 0; i < accents_latex_html.length; i+=2) {
-	str = str.replace(accents_latex_html[i], accents_latex_html[i+1]);
+	str = str.replaceAll(accents_latex_html[i], accents_latex_html[i+1]);
+	str = str.replaceAll("{" + accents_latex_html[i] + "}", accents_latex_html[i+1]);
     }
 
     return str;
