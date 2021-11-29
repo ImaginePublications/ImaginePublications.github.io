@@ -359,7 +359,6 @@ function entry2html(entry, arxiv_vanity = false)
 	note_pred_html = note_html + ".";
     } else if (note_html == "" && presentation_html != "") {
 	note_pred_html = presentation_html + ".";
-    }
     } else if (note_html != "" && presentation_html != "") {
 	note_pred_html = note_html + ". " + presentation_html + ".";
     }
