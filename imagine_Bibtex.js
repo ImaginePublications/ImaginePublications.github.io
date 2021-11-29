@@ -26,7 +26,7 @@ var authors_url = [
     "Micha&euml;l Ramamonjisoa", "https://michaelramamonjisoa.github.io/",
     "Othman Sbai", "http://imagine.enpc.fr/~sbaio/pix2vec/",
     "Xi Shen", "https://xishen0220.github.io/",
-    "G&uuml;l Varol", "https://www.robots.ox.ac.uk/~gul/",
+    "G&uuml;l Varol", "http://imagine.enpc.fr/~varolg/",
     "Chaohui Wang", "https://imagine-lab.enpc.fr/staff-members/chaoi-wang/",
     "Yang Xiao", "https://youngxiao13.github.io/"
 ];
