@@ -192,6 +192,9 @@ function uniformize_venue(venue) {
 	    if (v[i+1] == "do not expand") {
 		return venue;
 	    }
+	    if (venue.includes("orkshop")) {
+		return venue;
+	    }
 	    if (v[i+2] != "") {
 		return v[i+1] + " (<span class=\"abbrev\">" + v[i+2] + "</span>)";
 	    } else {
