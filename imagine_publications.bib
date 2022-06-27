@@ -1,53 +1,135 @@
 % Fill in the key (you can use anything) and at least the title, author, journal/booktitle, year fields. 
 % For journal and booktitle, please use the standard acronym (PAMI, CVPR, etc.) without { } nor " ".
-% If your journal / conference is not known yet by the script, you can add it to the image_Bibtex.js file (check the expanded_venues array) OR
+% If your journal / conference is not known by the script, you can add it to the image_Bibtex.js file (see the expanded_venues array) OR
 %  simply give the name in { }
 
 % For the other fields:
 
-% - img: Add your image to the repository in the images/papers directory (remember to do git add your file) and put the filename for the value of field img. 
-%   Please use relatively small images (max 400x400 pixels). Only give the filename (no url, no path).
+% - img (optional but highly recommended): Add your image to the repository in the images/papers directory (remember to do git add your file) and put the filename for the value of field img. 
+%   Use relatively small images, otherwise loading the page will become slow (max 400x400 pixels). Only give the filename (no url, no path).
 
-% - pdf: A link to a pdf of your paper. arXiv and the conference website if the pdfs are public are probably the most resilient places.
+% - pdf (optional but but even more recommended): A link to a pdf of your paper. arXiv and the conference website if the pdfs are public are probably the most resilient places.
 
-% - project: Provide a link to a project page related to your paper.
+% - project (optional): Provide a link to a project page related to your paper.
 
-% - note: Anything brief you want to mention (e.g. "To appear", "The two first authors have equal contributions").
+% - note (optional): Anything brief you want to mention (e.g. "To appear", "The two first authors have equal contributions").
 
-% - presentation: e.g. "Oral", "Spotlight".
+% - presentation (optional): e.g. "Oral", "Spotlight".
 
-% - tldr: Too Long Didnt Read. 1 sentence describing your paper.
+% - tldr (optional): Too Long Didnt Read. 1 sentence describing your paper.
 
 
 % 2022: %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-@inproceedings{ nguyen22 ,
+
+@inproceedings{ shen_cvpr22b ,
+  title = {{Sautier, Corentin and Puy, Gilles and Gidaris, Spyros and Boulch, Alexandre and Bursuc, Andrei and Marlet, Renaud}},
+  author = {Alexandre Boulch and Renaud Marlet},
+  booktitle = CVPR,
+  year = 2022,
+  pdf = {https://arxiv.org/abs/2203.16258},
+  img = sautier_cvpr22,
+  project = {https://github.com/valeoai/SLidR}
+}
+
+@inproceedings{ boulch_cvpr22b ,
+  title = {{POCO: Point Convolution for Surface Reconstruction}},
+  author = {Alexandre Boulch and Renaud Marlet},
+  booktitle = CVPR,
+  year = 2022,
+  pdf = {https://arxiv.org/abs/2201.01831},
+  img = boullch_cvpr22,
+  project = {https://github.com/valeoai/POCO}
+}
+
+@inproceedings{ shen_cvpr22b ,
+  title = {{Learning Co-segmentation by Segment Swapping for Retrieval and Discovery}},
+  author = {Shen, Xi and Efros, Alexei A and Joulin, Armand and Aubry, Mathieu},
+  booktitle = {CVPR Image Matching Workshop and Transformer Workshop},
+  year = 2022,
+  pdf = {https://arxiv.org/abs/2110.15904},
+  img = shen_cvpr22,
+  project = {http://imagine.enpc.fr/~shenx/SegSwap/}
+}
+
+@inproceedings{ loiseau_cvpr22b ,
+  title = {{Helix4D: Online Semantic Segmentation of LiDAR Sequences}},
+  author = {Loiseau, Romain and Bouvier, Baptiste and Teytaut, Yann and Vincent, Elliot and Aubry, Mathieu and Landrieu, Loïc},
+  booktitle = {CVPR Transformers for Vision Workshop},
+  year = 2022,
+  pdf = {https://romainloiseau.fr/helixnet}, 
+  img = loiseau_cvpr22b,
+  project = {https://romainloiseau.fr/helixnet/}
+}
+
+@inproceedings{ loiseau_cvpr22 ,
+  title = {{A Model You Can Hear: Audio Classification with Playable Prototypes}},
+  author = {Loiseau, Romain and Bouvier, Baptiste and Teytaut, Yann and Vincent, Elliot and Aubry, Mathieu and Landrieu, Loïc},
+  booktitle = {Sight and Sound Workshop - CVPR},
+  year = 2022,
+  pdf = {https://romainloiseau.fr/a-model-you-can-hear/SS_CVPR22w/SS_LOISEAU_CAMERA_READY.pdf}, 
+  img = loiseau_cvpr22,
+  project = {https://romainloiseau.fr/a-model-you-can-hear/}
+}
+
+@inproceedings{ wang_cvpr22 ,
+  title = {{Self-Supervised Transformers for Unsupervised Object Discovery using Normalized Cut}},
+  author = {Wang, Yangtao and Shen, Xi and Hu, Shell Xu and Yuan, Yuan and Crowley, James L. and Vaufreydaz, Dominique},
+  booktitle = CVPR,
+  year = 2022,
+  pdf = {https://arxiv.org/abs/2202.11539}, 
+  img = wang_cvpr22,
+  project = {https://imatge-upc.github.io/sl_retrieval/}
+}
+
+@inproceedings{ duarte_cvpr22 ,
+  title = {{Sign Language Video Retrieval with Free-Form Textual Queries}},
+  author = {Amanda Duarte and Samuel Albanie and Xavier Giro-i-Nieto and G\"ul Varol},
+  booktitle = CVPR,
+  year = 2022,
+  pdf = {https://arxiv.org/abs/2201.02495}, 
+  img = duarte_cvpr22,
+  project = {https://imatge-upc.github.io/sl_retrieval/}
+}
+
+@inproceedings{ hampali_cvpr22 ,
+  title = {{Keypoint Transformer: Solving Joint Identification in Challenging Hands and Object Interactions for Accurate 3D Pose Estimation}},
+  author = {Shreyas Hampali and Sayan Deb Sarkar and Mahdi Rad and Vincent Lepetit},
+  booktitle = CVPR,
+  year = 2022,
+  pdf = {https://arxiv.org/abs/2104.14639}, 
+  img = hampali_cvpr22,
+  presentation = {Oral},
+  project = {https://github.com/shreyashampali/kypt_transformer}
+}
+
+@inproceedings{ nguyen_cvpr22 ,
   title = {{Templates for 3D Object Pose Estimation Revisited: Generalization to New Objects and Robustness to Occlusions}},
   author = {Van Nguyen Nguyen and Yinlin Hu and Yang Xiao and Mathieu Salzmann and Vincent Lepetit},
   booktitle = CVPR,
   year = 2022,
   pdf = {https://arxiv.org/abs/2203.17234}, 
-  img = nguyen22,
+  img = nguyen_cvpr22,
   project = {https://nv-nguyen.github.io/template-pose/}
 }
 
-@inproceedings{ darmon22 ,
+@inproceedings{ darmon_cvpr22 ,
   title = {{NeuralWarp: Improving Neural Implicit Surfaces Geometry with Patch Warping}},
   author = {François Darmon and Bénédicte Bascle and Jean-Clément Devaux and Pascal Monasse and Mathieu Aubry},
   booktitle = CVPR,
   year = 2022,
   pdf = {https://arxiv.org/abs/2112.09648}, 
-  img = ponimatkin22,
+  img = darmon_cvpr22,
   project = {http://imagine.enpc.fr/~darmonf/NeuralWarp/}
 }
 
-@inproceedings{ ponimatkin22 ,
+@inproceedings{ ponimatkin_cvpr22 ,
   title = {{Focal Length and Object Pose Estimation via Render and Compare}},
   author = {Georgy Ponimatkin and Yann Labbé and Bryan Russell and Mathieu Aubry and Josef Sivic},
   booktitle = CVPR,
   year = 2022,
   pdf = {https://arxiv.org/abs/2204.05145}, 
-  img = ponimatkin22,
+  img = ponimatkin_cvpr22,
   project = {https://ponimatkin.github.io/focalpose/index.html}
 }
 
@@ -62,7 +144,7 @@
 }
 
 @inproceedings{ djahel22b ,
-  title = {{Detectinig Openings for Infoor/Outdoor Registration}},
+  title = {{Detecting Openings for Indoor/Outdoor Registration}},
   author = {Rahima Djahel and Bruno Vallet and Pascal Monasse},
   booktitle = {The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences},
   year = 2022,
