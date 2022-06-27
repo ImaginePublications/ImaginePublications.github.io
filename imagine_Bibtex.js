@@ -17,6 +17,7 @@ var authors_url = [
     "Thibault Groueix", "http://imagine.enpc.fr/~groueixt/",
     "Pierre-Alain Langlois", "http://imagine.enpc.fr/~langloip/",
     "Vincent Lepetit", "http://imagine.enpc.fr/~lepetitv/",
+    "Romain Loiseau", "https://romainloiseau.fr",
     "Tom Monnier", "http://imagine.enpc.fr/~monniert/",
     "Giorgia Pitteri", "https://imagine-lab.enpc.fr/staff-members/giorgia-pitteri/",
     "Renaud Marlet", "http://imagine.enpc.fr/~marletr/",
@@ -27,6 +28,7 @@ var authors_url = [
     "Othman Sbai", "http://imagine.enpc.fr/~sbaio/pix2vec/",
     "Xi Shen", "https://xishen0220.github.io/",
     "G&uuml;l Varol", "http://imagine.enpc.fr/~varolg/",
+    "Elliot Vincent", "https://imagine.enpc.fr/~vincente/",
     "Chaohui Wang", "https://imagine-lab.enpc.fr/staff-members/chaoi-wang/",
     "Yang Xiao", "https://youngxiao13.github.io/"
 ];
