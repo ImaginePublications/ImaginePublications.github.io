@@ -30,7 +30,8 @@ var authors_url = [
     "G&uuml;l Varol", "http://imagine.enpc.fr/~varolg/",
     "Elliot Vincent", "https://imagine.enpc.fr/~vincente/",
     "Chaohui Wang", "https://imagine-lab.enpc.fr/staff-members/chaoi-wang/",
-    "Yang Xiao", "https://youngxiao13.github.io/"
+    "Yang Xiao", "https://youngxiao13.github.io/",
+    "Mathis Petrovich", "https://mathis.petrovich.fr/"
 ];
 
 var expanded_venues = [
