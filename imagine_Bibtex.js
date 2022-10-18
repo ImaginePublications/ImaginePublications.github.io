@@ -12,7 +12,7 @@ var default_image      = "https://ImaginePublications.github.io/images/papers/de
 var authors_url = [
     "Mathieu Aubry", "http://imagine.enpc.fr/~aubrym/",
     "Fran&ccedil;ois Darmon", "http://imagine.enpc.fr/~darmonf",
-    "Yuming Du", "https://imagine-lab.enpc.fr/staff-members/yuming-du/",
+    "Yuming Du", "https://dulucas.github.io",
     "Hugo Germain", "https://www.hugogermain.com/",
     "Thibault Groueix", "http://imagine.enpc.fr/~groueixt/",
     "Pierre-Alain Langlois", "http://imagine.enpc.fr/~langloip/",
