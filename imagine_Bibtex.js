@@ -25,6 +25,7 @@ var authors_url = [
     "David Picard", "https://davidpicard.github.io/",
     "Xuchong Qiu", "https://imagine-lab.enpc.fr/staff-members/xuchong-qiu/",
     "Micha&euml;l Ramamonjisoa", "https://michaelramamonjisoa.github.io/",
+    "Nermin Samet", "https://nerminsamet.github.io",
     "Othman Sbai", "http://imagine.enpc.fr/~sbaio/pix2vec/",
     "Xi Shen", "https://xishen0220.github.io/",
     "G&uuml;l Varol", "http://imagine.enpc.fr/~varolg/",
