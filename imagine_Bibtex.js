@@ -23,6 +23,7 @@ var authors_url = [
     "Renaud Marlet", "http://imagine.enpc.fr/~marletr/",
     "Marie-Morgane Paumard", "https://perso-etis.ensea.fr/paumard/",
     "David Picard", "https://davidpicard.github.io/",
+    "Georgy Ponimatkin", "https://ponimatkin.github.io",
     "Xuchong Qiu", "https://imagine-lab.enpc.fr/staff-members/xuchong-qiu/",
     "Micha&euml;l Ramamonjisoa", "https://michaelramamonjisoa.github.io/",
     "Nermin Samet", "https://nerminsamet.github.io",
