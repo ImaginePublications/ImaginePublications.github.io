@@ -198,7 +198,7 @@ function uniformize_venue(venue) {
 		return venue;
 	    }
 	    if (v[i+2] != "") {
-		return v[i+1] + " (<span class=\"abbrev\">" + v[i+2] + "</span>)";
+		return v[i+1] + "&nbsp;(<span class=\"abbrev\">" + v[i+2] + "</span>)";
 	    } else {
 		return v[i+1];
 	    }
