@@ -21,6 +21,7 @@ var authors_url = [
     "Tom Monnier", "http://imagine.enpc.fr/~monniert/",
     "Giorgia Pitteri", "https://imagine-lab.enpc.fr/staff-members/giorgia-pitteri/",
     "Renaud Marlet", "http://imagine.enpc.fr/~marletr/",
+    "Pascal Monasse", "https://imagine-lab.enpc.fr/staff-members/pascal-monasse/",
     "Marie-Morgane Paumard", "https://perso-etis.ensea.fr/paumard/",
     "David Picard", "https://davidpicard.github.io/",
     "Georgy Ponimatkin", "https://ponimatkin.github.io",
@@ -31,6 +32,7 @@ var authors_url = [
     "Xi Shen", "https://xishen0220.github.io/",
     "G&uuml;l Varol", "http://imagine.enpc.fr/~varolg/",
     "Elliot Vincent", "https://imagine.enpc.fr/~vincente/",
+    "Lucas Ventura", "http://lucasventura.com",
     "Chaohui Wang", "https://imagine-lab.enpc.fr/staff-members/chaoi-wang/",
     "Yang Xiao", "https://youngxiao13.github.io/",
     "Mathis Petrovich", "https://mathis.petrovich.fr/"
