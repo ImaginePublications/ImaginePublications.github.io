@@ -178,6 +178,7 @@ var accents_latex_html = [
     "\\c{c}", "&ccedil;",
     "\\'E", "&Eacute;"  ,
     "\\'e", "&eacute;"  ,
+    "\\’e", "&eacute;"  ,
     "\\`e", "&egrave;"  ,
     "\\^e", "&eacirc;"  ,
     '\\"e', "&euml;"    ,
