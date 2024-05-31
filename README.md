@@ -40,7 +40,7 @@ and
 Fill in the key (you can use anything) and at least the `title`, `author`, `journal`/`booktitle`, `year` fields. 
 **For `journal` and `booktitle`, please use the standard acronym (PAMI, CVPR, etc.)** *without* { } nor " ". If your journal / conference is not known yet by the script, you can add it to the `image_Bibtex.js` file (check the `expanded_venues` array) OR simply give the name in { }
 
-About the other fields:
+The other fields are optional:
 - `img`:  Add your image to the repository in the `images/papers` directory (don't forget to `git add` your file) and put the filename for the value of field `img`. Please use relatively small images (max 400x400 pixels). Only give the filename (no url, no path).
 - `pdf`: A link to a pdf of your paper. arXiv and the conference website if the pdfs are public are probably the most resilient places.
 - `project`: Provide a link to a project page related to your paper.
