@@ -16,7 +16,7 @@ var authors_url = [
     "Nicolas Dufour", "https://nicolas-dufour.github.io",
     "Hugo Germain", "https://www.hugogermain.com/",
     "Thibault Groueix", "http://imagine.enpc.fr/~groueixt/",
-    "Antoine Gu&eacute", "https://anttwo.github.io",
+    "Antoine Gu&eacute;don", "https://anttwo.github.io",
     "Pierre-Alain Langlois", "http://imagine.enpc.fr/~langloip/",
     "Loic Landrieu", "https://loiclandrieu.com/",
     "Vincent Lepetit", "https://vincentlepetit.github.io",
