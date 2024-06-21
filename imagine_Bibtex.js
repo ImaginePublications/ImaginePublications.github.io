@@ -198,7 +198,7 @@ var accents_latex_html = [
     'ï',    "&iuml;"    ,
     '\\"o', "&ouml;"    ,
     'ö',    "&ouml;"    ,
-    '\\"u', "&uuml;"    
+    '\\"u', "&uuml;"    ,
     'ü',    "&uuml;"    
 ];
 
