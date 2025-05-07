@@ -10,7 +10,10 @@ var default_images_dir = "https://ImaginePublications.github.io/images/papers/";
 var default_image      = "https://ImaginePublications.github.io/images/papers/default_image.png";
 
 var authors_url = [
+    "Arslan Artykov", "https://arslan-artykov.netlify.app",
+    "Guillaume Astruc", "https://gastruc.github.io",
     "Mathieu Aubry", "http://imagine.enpc.fr/~aubrym/",
+    "Clémentin Boittiaux", "https://clementinboittiaux.github.io",
     "Fran&ccedil;ois Darmon", "http://imagine.enpc.fr/~darmonf",
     "Yuming Du", "https://dulucas.github.io",
     "Nicolas Dufour", "https://nicolas-dufour.github.io",
@@ -20,7 +23,9 @@ var authors_url = [
     "Pierre-Alain Langlois", "http://imagine.enpc.fr/~langloip/",
     "Loic Landrieu", "https://loiclandrieu.com/",
     "Vincent Lepetit", "https://vincentlepetit.github.io",
+    "Shiyao Li", "https://shiyao-li.github.io",
     "Romain Loiseau", "https://romainloiseau.fr",
+    "Thibaut Loiseau", "https://bsky.app/profile/thibautloiseau.bsky.social",
     "Tom Monnier", "http://imagine.enpc.fr/~monniert/",
     "Giorgia Pitteri", "https://imagine-lab.enpc.fr/staff-members/giorgia-pitteri/",
     "Renaud Marlet", "http://imagine.enpc.fr/~marletr/",
@@ -36,6 +41,7 @@ var authors_url = [
     "Othman Sbai", "http://imagine.enpc.fr/~sbaio/pix2vec/",
     "Xi Shen", "https://xishen0220.github.io/",
     "Ioannis Siglidis", "https://imagine.enpc.fr/~siglidii/",
+    "Sinisa Stekovic", "https://vevenom.github.io",
     "G&uuml;l Varol", "http://imagine.enpc.fr/~varolg/",
     "Elliot Vincent", "https://imagine.enpc.fr/~vincente/",
     "Lucas Ventura", "http://lucasventura.com",
