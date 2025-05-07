@@ -13,7 +13,7 @@ var authors_url = [
     "Arslan Artykov", "https://arslan-artykov.netlify.app",
     "Guillaume Astruc", "https://gastruc.github.io",
     "Mathieu Aubry", "http://imagine.enpc.fr/~aubrym/",
-    "Clémentin Boittiaux", "https://clementinboittiaux.github.io",
+    "Cl&eacute;mentin Boittiaux", "https://clementinboittiaux.github.io",
     "Fran&ccedil;ois Darmon", "http://imagine.enpc.fr/~darmonf",
     "Yuming Du", "https://dulucas.github.io",
     "Nicolas Dufour", "https://nicolas-dufour.github.io",
