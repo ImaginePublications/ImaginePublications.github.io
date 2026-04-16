@@ -48,6 +48,9 @@ var authors_url = [
     "Chaohui Wang", "https://imagine-lab.enpc.fr/staff-members/chaoi-wang/",
     "Yang Xiao", "https://youngxiao13.github.io/",
     "Mathis Petrovich", "https://mathis.petrovich.fr/"
+	"Guillaume Astruc", "https://gastruc.github.io/"
+    "Yohann Perron", "https://yohannperron.github.io/WebPage/"
+    "Louis Geist", "https://louisgeist.github.io/"
 ];
 
 var expanded_venues = [
@@ -69,6 +72,7 @@ var expanded_venues = [
     "ICIP",  "International Conference on Image Processing", "ICIP",
     "ICLR",  "International Conference on Learning Representations", "ICLR",
     "IJCV",  "International Journal of Computer Vision", "IJCV",
+	"ICRA", "International Conference on Robotics and Automation", "ICRA"
     "ISMAR", "Proceedings of the International Symposium on Mixed and Augmented Reality", "ISMAR",
     "MICCAI", "Proceedings of the Conference on  Medical Image Computing and Computer Assisted Intervention", "MICCAI",
     "NIPS",  "Advances in Neural Information Processing Systems", "NIPS",
