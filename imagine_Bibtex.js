@@ -61,6 +61,7 @@ var expanded_venues = [
     "ARXIV", "arXiv Preprints", "",
     "BMVC",  "Proceedings of the British  Machine Vision Conference", "BMVC",
     "CVIU",  "Computer Vision and Image Understanding", "CVIU",
+	"CVPRF",  "Findings Track of the IEEE Conference on Computer Vision and Pattern Recognition", "CVPRF",
     "CVPRW",  "Workshop at the IEEE Conference on Computer Vision and Pattern Recognition", "CVPRW",
     "CVPR",  "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition", "CVPR",
     "ECCVW",  "Workshop at the European Conference on Computer Vision", "ECCVW",
