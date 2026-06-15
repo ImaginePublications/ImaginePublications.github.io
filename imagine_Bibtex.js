@@ -72,6 +72,7 @@ var expanded_venues = [
     "ICCVW", "Workshop at the International Conference on Computer Vision", "ICCV Workshop",
     "ICIP",  "International Conference on Image Processing", "ICIP",
     "ICLR",  "International Conference on Learning Representations", "ICLR",
+	"ICML",  "International Conference on Machine Learning", "ICML",
     "IJCV",  "International Journal of Computer Vision", "IJCV",
 	"ICRA", "International Conference on Robotics and Automation", "ICRA",
     "ISMAR", "Proceedings of the International Symposium on Mixed and Augmented Reality", "ISMAR",
