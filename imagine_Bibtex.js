@@ -50,7 +50,8 @@ var authors_url = [
     "Mathis Petrovich", "https://mathis.petrovich.fr/",
 	"Guillaume Astruc", "https://gastruc.github.io/",
     "Yohann Perron", "https://yohannperron.github.io/WebPage/",
-    "Louis Geist", "https://louisgeist.github.io/"
+    "Louis Geist", "https://louisgeist.github.io/",
+	"Marta Lopez", "https://marta-lopez-rauhut.github.io/"
 ];
 
 var expanded_venues = [
@@ -79,6 +80,7 @@ var expanded_venues = [
     "MICCAI", "Proceedings of the Conference on  Medical Image Computing and Computer Assisted Intervention", "MICCAI",
     "NIPS",  "Advances in Neural Information Processing Systems", "NIPS",
     "PAMI",  "IEEE Transactions on Pattern Analysis and Machine Intelligence", "PAMI",
+	"TMLR",  "Transactions on Machine Learning Research", "TMLR",
     "VR",    "Proceedings of the IEEE Virtual Reality Conference", "VR",
     "WACV",  "IEEE Winter Conference on Applications of Computer Vision", "WACV"
 ];
