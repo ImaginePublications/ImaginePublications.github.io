@@ -81,6 +81,7 @@ var expanded_venues = [
     "MICCAI", "Proceedings of the Conference on  Medical Image Computing and Computer Assisted Intervention", "MICCAI",
     "NIPS",  "Advances in Neural Information Processing Systems", "NIPS",
     "PAMI",  "IEEE Transactions on Pattern Analysis and Machine Intelligence", "PAMI",
+	"TGRS", "IEEE Transactions on Geoscience and Remote Sensing", "TGRS",
 	"TMLR",  "Transactions on Machine Learning Research", "TMLR",
     "VR",    "Proceedings of the IEEE Virtual Reality Conference", "VR",
     "WACV",  "IEEE Winter Conference on Applications of Computer Vision", "WACV"
